@@ -1,0 +1,18 @@
+﻿<Window x:Class="CompressingApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CompressingApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="488" Width="641">
+    <Grid>
+        <Button Content="Сжать" HorizontalAlignment="Left" Margin="10,394,0,0" VerticalAlignment="Top" Height="30" Width="283" Click="Button_Click"/>
+        <TextBox x:Name="Text" HorizontalAlignment="Left" Margin="10,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="283" Height="353"/>
+        <TextBox x:Name="Output" HorizontalAlignment="Left" Margin="298,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="283" Height="88"/>
+        <TextBox x:Name="Alphabet" HorizontalAlignment="Left" Margin="298,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="283" Height="269"/>
+        <Label Content="Текст для сжатия" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="283"/>
+        <Label Content="Сжатый текст" HorizontalAlignment="Left" Margin="298,10,0,0" VerticalAlignment="Top" Width="283"/>
+        <Label Content="Сгенерированный алфавит" HorizontalAlignment="Left" Margin="298,124,0,0" VerticalAlignment="Top" Width="283"/>
+    </Grid>
+</Window>

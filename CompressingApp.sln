@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompressingApp", "CompressingApp\CompressingApp.csproj", "{A42D31CB-57C3-431D-BE22-05DD324B1557}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compressing", "Compressing\Compressing.csproj", "{DE3C7B3A-80B9-47DF-B485-84A9ABADCA58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A42D31CB-57C3-431D-BE22-05DD324B1557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A42D31CB-57C3-431D-BE22-05DD324B1557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A42D31CB-57C3-431D-BE22-05DD324B1557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A42D31CB-57C3-431D-BE22-05DD324B1557}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE3C7B3A-80B9-47DF-B485-84A9ABADCA58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE3C7B3A-80B9-47DF-B485-84A9ABADCA58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE3C7B3A-80B9-47DF-B485-84A9ABADCA58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE3C7B3A-80B9-47DF-B485-84A9ABADCA58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D01A286-98CF-482E-94B5-C84AB733DBCE}
+	EndGlobalSection
+EndGlobal
